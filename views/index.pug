@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1 #{title}
+    ul
+        each todo, i in todos
+            li= todo.title
